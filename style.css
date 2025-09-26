@@ -314,7 +314,7 @@ select {
 .teams-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 15px
 }
 
 .team-card {
@@ -374,5 +374,27 @@ select {
 
   .teams-grid {
     grid-template-columns: 1fr;
+  }
+
+  #progress-Container {
+    max-width: 100%;
+    background-color: #005a9e;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+
+  }
+#progressBar {
+    height: 100%;
+    width: 0;
+    background-color: #00aeef;
+    border-radius: 10px;
+    transition: width 0.6s ease;
+  }
+
+  #greeting {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
   }
 }
